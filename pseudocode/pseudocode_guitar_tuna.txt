@@ -1,0 +1,13 @@
+STORE "guitar string sound" choose string 1 / 2 / 3 / 4 / 5 / 6
+
+IF "guitar string sound" is synchronized
+    return check mark
+ELSE
+    IF "guitar string sound" is too high
+    return decrease sound
+
+    ELIF "guitar string sound" is too low
+    return increase sound
+
+    ELSE 
+    return checkmark
